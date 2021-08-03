@@ -1,3 +1,3 @@
 # IN4MALS
 
-https://in4malssociety.tech
+https://in4malssociety.tech/
