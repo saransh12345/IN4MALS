@@ -513,7 +513,7 @@ header {
 
 /*            PHOTOGRAPHY CARD        */
 #card3 {
-	background: linear-gradient(to bottom, #4443, #000), url(./src/image/retro-camera.jpg);
+	background: linear-gradient(to bottom, #4443, #000), url(./src/components/image/retro-camera.jpg);
 	background-position: center;
 	transition-delay: .4s;
 	background-size: cover;
