@@ -70,12 +70,12 @@ a {
 }
 
 /*===============Society Logo===============*/
-#logo_img img {
+#logo_img {
 	border-radius: 50%;
 	width: 100px;
 	position: relative;
 	left: 30px;
-	top: 20px;
+	top: 10px;
 }
 
 /*====================Navigation Bar===============*/
@@ -83,15 +83,15 @@ a {
 /*Navbar icon*/
 .bars {
 	position: fixed;
-	width: 28px;
+	width: 30px;
 	height: 30px;
 	top: 40px;
 	right: 10px;
 	cursor: pointer;
 	z-index: 101;
 	padding-top: 9px;
-	outline: none;
 	transition: .5s ease;
+	outline: none;
 }
 
 .bars.active {
@@ -103,8 +103,8 @@ a {
 	height: 4.3px;
 	border-radius: 20px;
 	background-color: #fff;
-	outline: none;
 	position: absolute;
+	outline: none;
 }
 
 #nav-action #bar1 {
@@ -184,8 +184,6 @@ ul {
 	transition: all 1s ease-in-out;
 	background: #101d2e;
 	box-shadow: 0 0px 0px rgba(232, 213, 127, 0.5);
-	outline: none;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 nav.visible li:first-child {
@@ -311,11 +309,11 @@ header {
 	box-sizing: border-box;
 	line-height: 60px;
 	overflow-wrap: break-word;
-	animation: tubelight 5s linear infinite;
+	animation: animate 5s linear infinite;
 	font-weight: 600;
 }
 
-@keyframes tubelight {
+@keyframes animate {
 
 	0%,
 	18%,
@@ -354,7 +352,7 @@ header {
 
 .social-icons {
 	position: fixed;
-	top: 40%;
+	top: 45%;
 	right: 10px;
 	z-index: 2;
 }
@@ -374,14 +372,21 @@ header {
 .fa-youtube {
 	display: block;
 	font-size: 30px;
-	margin-top: 20px;
+	margin: 10px 0px;
 	text-align: center;
 
 }
 
+.fa-discord {
+	display: block;
+	font-size: 30px;
+	margin: 10px 0px;
+	text-align: center;
+}
+
 .social-icons a .fab {
 	color: #fff;
-	/*	padding: 5px 10px 5px 20px;*/
+	padding: 5px 10px 5px 20px;
 }
 
 .social-icons a .fab:hover {
@@ -513,8 +518,7 @@ header {
 
 /*            PHOTOGRAPHY CARD        */
 #card3 {
-	background: linear-gradient(to bottom, #4443, #000), url(./src/components/image/retro-camera.jpg);
-	background-position: center;
+	background: linear-gradient(to bottom, #4443, #000), url(./src/components/image/2camera.jpg);
 	transition-delay: .4s;
 	background-size: cover;
 }
@@ -565,6 +569,7 @@ header {
 	justify-content: center;
 	background: none;
 	border: 0;
+	cursor: pointer;
 }
 
 #cardL img {
@@ -588,6 +593,7 @@ header {
 	border-bottom: 0;
 	box-shadow: 0 19px 38px rgba(100, 0, 0.30), 0 15px 12px rgba(2, 0, 0, 0.22);
 	border-image: linear-gradient(to bottom, rgb(0 0 0/ 30%), rgb(255 215 0 / 100%), #ffd700, #000) 10 100%;
+	transition: all 1s ease;
 }
 
 #cardW::before {
@@ -750,7 +756,7 @@ header {
 }
 
 #progress2 {
-	width: 85%;
+	width: 70%;
 	animation-delay: 0.4s;
 
 }
@@ -765,6 +771,23 @@ header {
 	width: 80%;
 	animation-delay: 0.6s;
 
+}
+/*        Back to top btn        */
+.back-to-top {
+	background-color: var(--primary-bg);
+	padding: 10px 12px;
+	color: var(--border-color);
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 0 0 7px var(--border-color);
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 100;
+	transition: all .5s ease-in;
+	opacity: 0;
+	transform: translateY(1000px);
 }
 
 
