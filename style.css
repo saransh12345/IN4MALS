@@ -413,7 +413,7 @@ header {
 	justify-content: center;
 }
 
-.dept h1 {
+.dept h2 {
 	font-size: 30px;
 	color: #5589f2;
 	text-align: center;
@@ -671,7 +671,7 @@ header {
 	justify-content: center;
 }
 
-.feedback-heading h1 {
+.feedback-heading h2 {
 	font-family: var(--heading-font);
 	color: #5589f2;
 	font-size: 30px;
