@@ -57,6 +57,23 @@ body{
 	overflow-x: hidden;
 }
 
+::-webkit-scrollbar-track {
+	background-color: var(--primary-bg);
+}
+
+::-webkit-scrollbar {
+	width: 2px;
+}
+
+::-webkit-scrollbar:hover {
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 30px;
+	background: linear-gradient(#101d2e, #e8d57f, #e8d57f);
+}
+
 /*===============Society Logo===============*/
 #logo_img {
 	border-radius: 50%;
