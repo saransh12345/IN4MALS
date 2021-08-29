@@ -523,10 +523,6 @@ header {
 	font-size: 22px;
 	color: grey;
 	margin: 10px 6px;
-	border 1.2px solid #000;
-	border-radius: 50%;
-	width: 30px;
-	height: 30px;
   }
   
   button:hover, .team_member a:hover {
@@ -534,6 +530,13 @@ header {
 	color: black;
   }
 
+.fa-linkedin{
+	border-radius: 50%;
+	border 1.2px solid #000;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+}
 @media only screen and (max-width: 1150px) {
   .profiles {
     flex-direction: column;
