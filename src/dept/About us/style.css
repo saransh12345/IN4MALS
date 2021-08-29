@@ -522,6 +522,7 @@ a {
 	text-decoration: none;
 	font-size: 22px;
 	color: grey;
+	margin: 5px 10px;
   }
   
   button:hover, a:hover {
