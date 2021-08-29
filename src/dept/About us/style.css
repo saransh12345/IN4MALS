@@ -518,14 +518,16 @@ header {
   margin-top: 10px;
 }
 
-a {
+.team_member a {
 	text-decoration: none;
 	font-size: 22px;
 	color: grey;
-	margin: 5px 10px;
+	margin: 8px 8px;
+	border 2px solid #000;
+	padding: 10px;
   }
   
-  button:hover, a:hover {
+  button:hover, .team_member a:hover {
 	opacity: 0.7;
 	color: black;
   }
