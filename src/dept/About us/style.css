@@ -631,6 +631,7 @@ body{
   top: -50px;
   left: 50%;
   transform: translateX(-50%);
+  object-fit: contain;
   width: 100px;
   height: 100px;
   border-radius: 50%;
