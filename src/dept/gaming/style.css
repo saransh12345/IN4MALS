@@ -521,7 +521,7 @@ nav img {
     position: fixed;
     right: 20px;
     bottom: 20px;
-    z-index: 100;
+    z-index: 2;
     transition: all .5s ease-in;
     opacity: 0;
     transform: translateY(1000px);
