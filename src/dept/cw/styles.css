@@ -345,13 +345,12 @@ header .logo{
     position: relative;
     z-index: 1;
     width: 600px;
-    height: 400px;
     display: flex;
     justify-content: flex-end;
 }
 .image-box img{
     max-width: 400px;
-    object-fit: contain;
+ 
 }
 
 .thumbnail{
