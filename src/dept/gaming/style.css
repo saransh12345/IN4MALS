@@ -560,6 +560,14 @@ nav img {
 	font-family: var(--content-font);
 }
 
+.in4mals_logo img {
+    width: 12vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 5;
+}
 
 
 
