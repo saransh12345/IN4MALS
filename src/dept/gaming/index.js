@@ -12,6 +12,7 @@ var bars = document.getElementById("nav-action");
 		nav.classList.toggle('visible');
 	}
 	//Back to top button function
+//Back to top button function
 
 	window.onscroll = function () {
 		scrollFunction()
@@ -25,4 +26,10 @@ var bars = document.getElementById("nav-action");
 			document.querySelector(".back-to-top").style.transform = "translateY(1000px)";
 			document.querySelector(".back-to-top").style.opacity = "0";
 		}
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
 	}
