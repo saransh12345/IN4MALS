@@ -70,6 +70,9 @@
 
 }
 
+html{
+	scroll-behavior: smooth;
+}
 
 body {
 	background-color: #101d2e;
@@ -227,24 +230,24 @@ nav.visible li:last-child {
 
 nav.visible li:nth-child(1) a {
 	line-height: 275vw !important;
-	text-indent: 15vw !important;
+	text-indent: 7vw !important;
 
 }
 
 nav.visible li:nth-child(2) a {
 	line-height: 210vw !important;
-	text-indent: 17vw !important;
+	text-indent: 8vw !important;
 }
 
 nav.visible li:nth-child(3) a {
-	line-height: 147vw !important;
-	text-indent: 17vw !important;
+	line-height: 145vw !important;
+	text-indent: 10vw !important;
 
 }
 
-nav.visible li:nth-child(4) a {
-	line-height: 70vw !important;
-	text-indent: 12vw !important;
+.bars:hover #bar2{
+	transition: transform .5s;
+	transform: translateX(-8px);
 }
 
 @keyframes top-bar {
