@@ -128,21 +128,17 @@
 		height: 50vw;
 	}
 
-	nav.visible li:nth-child(1) a {
-		line-height: 370vw !important;
-		text-indent: 35vw !important;
-
-	}
-
-	nav.visible li:nth-child(2) a {
-		line-height: 265vw !important;
-		text-indent: 28vw !important;
-	}
-
-	nav.visible li:nth-child(3) a {
-		line-height: 160vw !important;
-		text-indent: 18vw !important;
-
-	}
+	 nav.visible li:nth-child(1) a {
+        	line-height: 380vw !important;
+       		 text-indent: 20vw !important;
+    	}
+    	nav.visible li:nth-child(2) a {
+        	line-height: 265vw !important;
+        	text-indent: 15vw !important;
+    	}
+    	nav.visible li:nth-child(3) a {
+        	line-height: 160vw !important;
+        	text-indent: 10vw !important;
+    	}
 
 }
