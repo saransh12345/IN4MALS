@@ -118,6 +118,10 @@ ul {
 	z-index: 100 !important;
 	opacity: 1 !important;
 }
+.bars:hover #bar2{
+	transition: transform .5s;
+	transform: translateX(-8px);
+}
 
 .shape-circle {
 	border-radius: 50%;
@@ -175,24 +179,19 @@ nav.visible li:last-child {
 
 nav.visible li:nth-child(1) a {
 	line-height: 275vw !important;
-	text-indent: 15vw !important;
+	text-indent: 7vw !important;
 
 }
 
 nav.visible li:nth-child(2) a {
 	line-height: 210vw !important;
-	text-indent: 17vw !important;
+	text-indent: 8vw !important;
 }
 
 nav.visible li:nth-child(3) a {
-	line-height: 147vw !important;
-	text-indent: 17vw !important;
+	line-height: 145vw !important;
+	text-indent: 10vw !important;
 
-}
-
-nav.visible li:nth-child(4) a {
-	line-height: 70vw !important;
-	text-indent: 12vw !important;
 }
 
 @keyframes top-bar {
@@ -317,22 +316,18 @@ header {
 		height: 50vw;
 	}
 
-	nav.visible li:nth-child(1) a {
-		line-height: 370vw !important;
-		text-indent: 35vw !important;
-
-	}
-
-	nav.visible li:nth-child(2) a {
-		line-height: 265vw !important;
-		text-indent: 28vw !important;
-	}
-
-	nav.visible li:nth-child(3) a {
-		line-height: 160vw !important;
-		text-indent: 18vw !important;
-
-	}
+ 	 nav.visible li:nth-child(1) a {
+        	line-height: 380vw !important;
+       		 text-indent: 20vw !important;
+    	}
+    	nav.visible li:nth-child(2) a {
+        	line-height: 265vw !important;
+        	text-indent: 15vw !important;
+    	}
+    	nav.visible li:nth-child(3) a {
+        	line-height: 160vw !important;
+        	text-indent: 10vw !important;
+    	}
 
 }
 
@@ -515,13 +510,13 @@ nav img {
 
 /*        Back to top btn        */
 .back-to-top {
-    background-color: var(--primary-bg);
+    background-color: #101d2e;
     padding: 10px 12px;
-    color: var(--border-color);
+    color: #ffd700;
     font-size: 25px;
     cursor: pointer;
     border-radius: 8px;
-    box-shadow: 0 0 7px var(--border-color);
+    box-shadow: 0 0 7px #ffd700;
     position: fixed;
     right: 20px;
     bottom: 20px;
@@ -530,7 +525,9 @@ nav img {
     opacity: 0;
     transform: translateY(1000px);
 }
-
+.back-to-top:hover {
+    box-shadow: 0 0 10px #ffd700;
+}
 
 
  /*----Copyright----*/
