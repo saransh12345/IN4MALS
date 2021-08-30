@@ -199,7 +199,7 @@ nav.visible li:nth-child(3) a {
 	text-indent: 10vw !important;
 
 }
-	.bars:hover #bar2{
+.bars:hover #bar2{
 	transition: transform .5s;
 	transform: translateX(-8px);
 }
@@ -615,4 +615,21 @@ h3 {
     border: 3px solid #FFD700;
     border-top-width: 0;
     border-bottom-width: 0;
+}
+/*      Back to top   */
+.back-to-top {
+	background-color: #101d2e;
+	padding: 10px 12px;
+	color: #ffd700;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 0 0 7px #ffd700;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 100;
+	transition: all .5s ease-in;
+	opacity: 0;
+	transform: translateY(1000px);
 }
