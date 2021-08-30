@@ -5,6 +5,7 @@ html, body{
   font-family: 'Poppins', sans-serif;
   color:white;
   background-color: #101d2e;
+  scroll-behaviour: smooth;
 }
 
 ::-webkit-scrollbar-track {
