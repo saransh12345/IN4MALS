@@ -596,3 +596,24 @@ nav.visible li:nth-child(3) a {
 .svg-bottom{
 	transform: scaleY(-1);
 }
+
+.back-to-top {
+    background-color: #101d2e;
+    padding: 10px 12px;
+    color: #ffd700;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 0 7px #ffd700;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 100;
+    transition: all .5s ease-in;
+    opacity: 0;
+    transform: translateY(1000px);
+}
+
+.back-to-top:hover {
+    box-shadow: 0 0 10px #ffd700;
+}
