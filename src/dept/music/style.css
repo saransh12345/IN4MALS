@@ -498,25 +498,25 @@ nav.visible li:last-child {
 
 nav.visible li:nth-child(1) a {
 	line-height: 275vw !important;
-	text-indent: 15vw !important;
+	text-indent: 7vw !important;
 
 }
 
 nav.visible li:nth-child(2) a {
 	line-height: 210vw !important;
-	text-indent: 17vw !important;
+	text-indent: 8vw !important;
 }
 
 nav.visible li:nth-child(3) a {
-	line-height: 147vw !important;
-	text-indent: 17vw !important;
+	line-height: 145vw !important;
+	text-indent: 10vw !important;
 
 }
-
-nav.visible li:nth-child(4) a {
-	line-height: 70vw !important;
-	text-indent: 12vw !important;
+.bars:hover #bar2{
+	transition: transform .5s;
+	transform: translateX(-8px);
 }
+
 
 @keyframes top-bar {
 	50% {
@@ -617,47 +617,6 @@ header {
 }
 
 
-
-
-@media(max-width: 644px){
-	nav.visible li:nth-child(1) {
-		width: 230vw;
-		height: 230vw;
-	}
-
-	nav.visible li:nth-child(2) {
-		width: 170vw;
-		height: 170vw;
-	}
-
-	nav.visible li:nth-child(3) {
-		width: 110vw;
-		height: 110vw;
-	}
-
-	nav.visible li:nth-child(4) {
-		width: 50vw;
-		height: 50vw;
-	}
-
-	nav.visible li:nth-child(1) a {
-		line-height: 370vw !important;
-		text-indent: 35vw !important;
-
-	}
-
-	nav.visible li:nth-child(2) a {
-		line-height: 265vw !important;
-		text-indent: 28vw !important;
-	}
-
-	nav.visible li:nth-child(3) a {
-		line-height: 160vw !important;
-		text-indent: 18vw !important;
-
-	}
-
-}
 
 li,
 a {
@@ -785,22 +744,18 @@ header {
     height: 50vw;
   }
 
-  nav.visible li:nth-child(1) a {
-    line-height: 370vw !important;
-    text-indent: 35vw !important;
-
-  }
-
-  nav.visible li:nth-child(2) a {
-    line-height: 265vw !important;
-    text-indent: 28vw !important;
-  }
-
-  nav.visible li:nth-child(3) a {
-    line-height: 160vw !important;
-    text-indent: 18vw !important;
-
-  }
+ 	nav.visible li:nth-child(1) a {
+        	line-height: 380vw !important;
+       		 text-indent: 20vw !important;
+    	}
+    	nav.visible li:nth-child(2) a {
+        	line-height: 265vw !important;
+        	text-indent: 15vw !important;
+    	}
+    	nav.visible li:nth-child(3) a {
+        	line-height: 160vw !important;
+        	text-indent: 10vw !important;
+    	}
 
 }
 
@@ -881,5 +836,21 @@ div h3
       position: absolute;
       top: 50px;
       left: 60px;
-      z-index: 5;
+      z-index: 2;
+}
+.back-to-top {
+	background-color: #101d2e;
+	padding: 10px 12px;
+	color: #ffd700;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 0 0 7px #ffd700;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 2;
+	transition: all .5s ease-in;
+	opacity: 0;
+	transform: translateY(1000px);
 }
