@@ -3,23 +3,26 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cascadia Code';
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/* custom scrollbar */
+
 ::-webkit-scrollbar-track {
-    background-color: #101d2e;
+	background-color: #101d2e;
 }
 
 ::-webkit-scrollbar {
-    width: 2px;
+	width: 2px;
 }
 
 ::-webkit-scrollbar:hover {
-    width: 8px;
+	width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 30px;
-    background: linear-gradient(#101d2e, #e8d57f, #e8d57f);
+	border-radius: 30px;
+	background: linear-gradient(#101d2e, #e8d57f, #e8d57f);
 }
 
 /*Navbar icon*/
@@ -257,7 +260,6 @@ nav.visible li:nth-child(3) a {
     	}
 
 }
-
 section{
     width: 100%;
     min-height: 100vh;
@@ -350,7 +352,7 @@ header .logo{
 }
 .image-box img{
     max-width: 400px;
- 
+
 }
 
 .thumbnail{
@@ -493,7 +495,20 @@ section {
   display: inline-block;
   letter-spacing: 2px;
 }
+.about{
+  position: relative;
+width: 100%;
+  display: flex;
+  background: url(https://d68b3152cf5d08c2f050-97c828cc9502c69ac5af7576c62d48d6.ssl.cf3.rackcdn.com/includes/img/cms/site-images/resized/fc4b0101629-kingston-university-5fde83d762a-.jpg)
+  no-repeat center / cover;;
 
+}
+.about .contentBx{
+  background: #162c3b;
+  padding: 100px;
+  width:50%;
+
+}
 .heading{
   color: #fff;
   font-size: 30px;
@@ -530,8 +545,7 @@ section {
   }
   .right {
     width: 90%;
-    margin: 0 ;
-    text-align: center;
+    margin: 0;
     margin-top: -100px;
   }
 }
@@ -667,7 +681,7 @@ a {
   --color-3: #244044;
   font-family: "Roboto Mono", monospace;
   text-align: left;
-  display: -webkit-box;S
+  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
