@@ -789,10 +789,7 @@ html {
 h3,h4{
   font-family: 'Merienda', cursive;
 }
-div h3
-{
-  
-}
+
 
 
 .glow {
@@ -831,13 +828,14 @@ div h3
     --border-image: linear-gradient(to bottom, rgb(0 0 0/ 30%), rgb(255 215 0 / 100%), #ffd700, #000) 10 100%;
 }
 .in4mals_logo img {
-    width: 12vw;
-    border-radius: 50%;
-      position: absolute;
-      top: 50px;
-      left: 60px;
-      z-index: 2;
+  width: 12vw;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 5;
 }
+
 .back-to-top {
 	background-color: #101d2e;
 	padding: 10px 12px;
