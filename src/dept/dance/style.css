@@ -14,6 +14,7 @@ html {
 body {
     background-color: #101d2e;
     color: #fff;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar-track {
