@@ -36,11 +36,12 @@ a:hover{
   color: black;
 }
 .icon {
-  top: 1.7vw;
-  width: 7vw;
-  height: 7vw;
-  left: 2%;
-  position: absolute;
+    width: 12vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 5;
 }
 .bg-img {
 
