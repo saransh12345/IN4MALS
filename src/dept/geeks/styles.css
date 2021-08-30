@@ -37,6 +37,7 @@ a:hover{
 }
 .icon {
     width: 12vw;
+    height: 100%;
     border-radius: 50%;
     position: absolute;
     top: 10px;
