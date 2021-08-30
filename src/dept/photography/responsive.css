@@ -93,3 +93,37 @@
 		font-size: 50px;
 	}
 }
+@media screen and (max-width:600px){
+
+	nav.visible li:nth-child(1) {
+		width: 230vw;
+		height: 230vw;
+	}
+
+	nav.visible li:nth-child(2) {
+		width: 170vw;
+		height: 170vw;
+	}
+
+	nav.visible li:nth-child(3) {
+		width: 110vw;
+		height: 110vw;
+	}
+
+	nav.visible li:nth-child(4) {
+		width: 50vw;
+		height: 50vw;
+	}
+   	 nav.visible li:nth-child(1) a {
+        	line-height: 380vw !important;
+       		 text-indent: 20vw !important;
+    	}
+    	nav.visible li:nth-child(2) a {
+        	line-height: 265vw !important;
+        	text-indent: 15vw !important;
+    	}
+    	nav.visible li:nth-child(3) a {
+        	line-height: 160vw !important;
+        	text-indent: 10vw !important;
+    	}
+}
