@@ -523,13 +523,15 @@ nav img {
     box-shadow: 0 0 10px #ffd700;
 }
 
-.card {
+
+/* .card {
     width: 300px;
     height: auto;
     margin: 0 auto;
-}
+} */
 
 .card img {
+    height: 300px;
     object-fit: cover;
 }
 
