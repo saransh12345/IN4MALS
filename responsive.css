@@ -45,6 +45,8 @@
     }
     .card {
         position: static;
+        width: 280px;
+        /* height: 300px; */
         margin-right: auto;
         margin-left: auto;
         box-shadow: 0 5px 20px rgb(0 0 0/60%);
@@ -53,7 +55,7 @@
     }
     .card-content {
         height: max-content;
-        transform: translateY(30px);
+        transform: translateY(50px);
     }
     .card-description {
         transform: translateY(0px);
