@@ -487,7 +487,7 @@ nav.visible li:nth-child(3) a {
 
 .footer {
   position: relative;
-  margin-left: 32vw;
+  margin-left: 30.3vw;
   margin-top: 10vw;
 
 }
@@ -563,6 +563,10 @@ nav.visible li:nth-child(3) a {
 
 .sketch-art-text{
   margin-top: 1vw;
+}
+.desig{
+  font-size: 1.2vw;
+  margin-bottom: 1vw;
 }
 @media screen and (max-width:600px){
  	 p {
@@ -811,6 +815,8 @@ nav.visible li:nth-child(3) a {
     margin-top: 1.5vw;
   }
 
-
+  .desig{
+    font-size: 2vw;
+    margin-bottom: 1vw;
 
 }
