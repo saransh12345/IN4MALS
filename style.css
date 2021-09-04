@@ -585,12 +585,14 @@ header {
     justify-content: center;
     background: none;
     border: 0;
-    cursor: pointer;
 }
 
 #cardL img {
     width: 200px;
+    cursor: pointer;
     height: auto;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 255, 0.603);
 }
 
 #cardL .circle {
@@ -599,7 +601,7 @@ header {
     height: 210px;
     position: absolute;
     border-radius: 90%;
-    background: linear-gradient(45deg, blue, red, green, purple, yellow);
+    background: linear-gradient(to left, rgba(0, 0, 255, 0.842), #102d2e, #102d2e, rgba(255, 255, 0, 0.973));
     animation: rotateC linear 4s infinite;
 }
 
