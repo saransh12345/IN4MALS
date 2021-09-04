@@ -516,7 +516,21 @@ header {
   transition: 400ms;
 }
 
-.profile:hover .profile-img {
+.profile-img1 {
+	height: 130px;
+	width: 130px;
+	border-radius: 50%;
+	margin-top: 25px;
+	filter: grayscale(100%);
+	cursor: pointer;
+	align-items: center;
+	transition: 400ms;
+  }
+  .profile:hover .profile-img1 {
+	filter: grayscale(0);
+  }
+
+.profile:hover .profile-img  {
   filter: grayscale(0);
 }
 
@@ -526,6 +540,13 @@ header {
   text-align: center;
 }
 
+.user-name1 {
+	margin-top: 20px;
+	font-size: 20px;
+	margin-right: 25px;
+	text-align: center;
+  }  
+
 .profile h5 {
   font-size: 18px;
   font-weight: 100;
@@ -533,7 +554,10 @@ header {
   color: #ccc;
   text-align: center;
   margin-top: 10px;
+  line-height: 1.5em;
 }
+
+  
 
 .team_member a {
 	text-decoration: none;
@@ -549,14 +573,14 @@ header {
 
 .fa-linkedin{
 	border-radius: 50%;
-	border 1.2px solid #000;
+	border: 1.2px  solid #000;
 	border-radius: 50%;
 	width: 30px;
 	height: 30px;
 }
 .fa-github{
 	border-radius: 50%;
-	border 1.2px solid #000;
+	border: 1.2px solid #000;
 	border-radius: 50%;
 	width: 30px;
 	height: 30px;

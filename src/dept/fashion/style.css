@@ -258,7 +258,28 @@ header {
 	animation: animate 5s linear infinite;
 	font-weight: 600;
 }
-
+.glow {
+	font-size: 100px;
+	color: #115263;
+	text-transform: capitalize;
+	text-align: center;
+	-webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+	box-sizing: border-box;
+	line-height: 60px;
+	overflow-wrap: break-word;
+     animation: animate 5s infinite alternate;
+	font-weight: 600;
+  }
+  .carousel-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+  }
+  .carousel-caption h1 {
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+  }
 @keyframes animate {
 
 	0%,
@@ -387,7 +408,7 @@ header {
     top: 40%;
   }
   .carousel-caption h1 {
-    font-size: 200%;
+    font-size: 300%;
   }
   .carousel-caption h3 {
     font-size: 130%;
