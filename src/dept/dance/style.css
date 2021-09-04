@@ -14,6 +14,7 @@ html {
 body {
     background-color: #101d2e;
     color: #fff;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar-track {
@@ -185,22 +186,22 @@ nav.visible li:last-child {
 
 nav.visible li:nth-child(1) a {
     line-height: 275vw !important;
-    text-indent: 15vw !important;
+    text-indent: 7vw !important;
 }
 
 nav.visible li:nth-child(2) a {
     line-height: 210vw !important;
-    text-indent: 17vw !important;
+    text-indent: 8vw !important;
 }
 
 nav.visible li:nth-child(3) a {
-    line-height: 147vw !important;
-    text-indent: 17vw !important;
+    line-height: 145vw !important;
+    text-indent: 10vw !important;
 }
 
-nav.visible li:nth-child(4) a {
-    line-height: 70vw !important;
-    text-indent: 12vw !important;
+.bars:hover #bar2 {
+    transition: transform .5s;
+    transform: translateX(-8px);
 }
 
 @keyframes top-bar {
@@ -368,16 +369,17 @@ h1.L:hover {
     height: 14vw;
     border-radius: 50%;
     margin: 10px auto;
-    object-fit: contain;
-    background: #000;
+    object-fit: cover;
+    background: #fff;
     box-shadow: 0 0 30px #ed4a21;
+    transition: transform 1.5s;
 }
 
 .cover_image {
-    width: 100%;
-    height: 660px;
+    width: 100vw;
+    height: 100vh;
     background: url(src/image/cover_img.jpg);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
 }
 
@@ -489,9 +491,9 @@ h3.d {
 }
 
 .card {
-    margin: 20px;
+    margin: 20px auto;
     color: #000;
-    width: 300px;
+    width: 280px;
     height: 400px;
     object-fit: cover;
     border-radius: 20px;
@@ -577,8 +579,7 @@ h3.d {
 }
 
 .social-btns .youtube {
-    position: absolute;
-    top: -3px;
+    margin-top: -7px;
 }
 
 .S {
@@ -614,4 +615,24 @@ h3 {
     border: 3px solid #FFD700;
     border-top-width: 0;
     border-bottom-width: 0;
+}
+
+
+/*      Back to top   */
+
+.back-to-top {
+    background-color: #101d2e;
+    padding: 10px 12px;
+    color: #ffd700;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 0 7px #ffd700;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 2;
+    transition: all .5s ease-in;
+    opacity: 0;
+    transform: translateY(1000px);
 }
