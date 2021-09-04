@@ -591,8 +591,25 @@ header {
 #cardL img {
     width: 200px;
     height: auto;
-    background: rgba(255, 255, 255, 0.65);
-    border-radius: 50%;
+}
+
+#cardL .circle {
+    z-index: -1;
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    border-radius: 90%;
+    background: linear-gradient(45deg, blue, red, green, purple, yellow);
+    animation: rotateC linear 4s infinite;
+}
+
+@keyframes rotateC {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 
