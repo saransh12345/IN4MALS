@@ -545,14 +545,11 @@ section {
 
 /* .about .imgBx */
 
-
-/* {
-   background: url(https://d68b3152cf5d08c2f050-97c828cc9502c69ac5af7576c62d48d6.ssl.cf3.rackcdn.com/includes/img/cms/site-images/resized/fc4b0101629-kingston-university-5fde83d762a-.jpg)
-   no-repeat center / cover;;
-  width: 50%;
-  background-size: cover;
-  background-position: center;
-} */
+@media (min-width: 1439px) {
+    .text-box p {
+        font-size: 14px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .container {
