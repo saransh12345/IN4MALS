@@ -526,9 +526,11 @@ header {
 /*            PHOTOGRAPHY CARD        */
 
 #card3 {
-    background: linear-gradient(to bottom, #4443, #000), url(./src/components/image/photography_icon.jpg);
+    background: linear-gradient(to top, rgb(0 0 0/1%), rgb(0 0 0 /50%)), url(./src/components/image/photo_card.jpeg);
     transition-delay: .4s;
     background-size: cover;
+    background-position: top;
+    /* object-fit: contain; */
 }
 
 
