@@ -777,6 +777,7 @@ a {
         margin: 0 3px;
         height: 55px;
         overflow-x: auto;
+        overflow-y: hidden;
     }
     .thumbnail li img {
         max-width: 40px;
