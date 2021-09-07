@@ -11,9 +11,16 @@
         transform: translate(350px, 0px);
         box-shadow: 0px 8px 40px rgb(0 0 0/80%);
     }
+    #card1:hover {
+        margin-bottom: 5px;
+        box-shadow: 0px 10px 50px rgb(0 0 0/90%);
+    }
     #card2.transformed {
         transform: translate(-350px, 0px);
         box-shadow: 0px 8px 40px rgb(0 0 0/80%);
+    }
+    #card2:hover {
+        margin-bottom: 5px;
     }
     #card3.transformed {
         transform: translate(350px, 300px);
