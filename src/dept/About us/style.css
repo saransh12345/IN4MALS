@@ -504,13 +504,10 @@ header {
 .profile-img1 {
     height: 130px;
     width: 130px;
-    object-fit: fill;
     border-radius: 50%;
     margin-top: 25px;
     filter: grayscale(100%);
     cursor: pointer;
-    background-color: #fff;
-    align-items: center;
     transition: 400ms;
 }
 
@@ -531,9 +528,7 @@ header {
 .user-name1 {
     margin-top: 20px;
     font-size: 20px;
-    margin-right: 25px;
     text-align: center;
-    text-transform: capitalize;
 }
 
 .profile h5 {
