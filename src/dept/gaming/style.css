@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
 html,
 body {
     height: 100%;
@@ -25,7 +28,6 @@ body {
     border-radius: 30px;
     background: linear-gradient(#101d2e, #e8d57f, #e8d57f);
 }
-
 
 /*Navbar icon*/
 
@@ -229,7 +231,6 @@ nav.visible li:nth-child(3) a {
 	text-align: center;
 	-webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
 	box-sizing: border-box;
-	line-height: 60px;
 	overflow-wrap: break-word;
      animation: animate 5s infinite alternate;
 	font-weight: 600;
@@ -452,7 +453,6 @@ nav img {
 }
 
 @media (max-width: 576px) {
-<<<<<<< Updated upstream
     carousel-caption {
         top: 40%;
     }
@@ -480,7 +480,6 @@ nav img {
         width: 150%;
         height: 100%;
     }
-=======
   carousel-caption {
     top: 40%;
   }
@@ -509,7 +508,6 @@ nav img {
     width: 100%;
     height: 100%;
   }
->>>>>>> Stashed changes
 }
 
 
